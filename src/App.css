@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: black !important;
+  text-decoration: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+input,
+textarea {
+  /* border: none; */
+  outline: none;
+  padding: 5px;
+  font-weight: bolder;
+}
+label {
+  font-weight: bolder;
+}
+.navbar {
+  height: 90px !important;
+  padding-bottom: -5px !important;
+}
+.navList li a:hover {
+  color: grey !important;
+  padding-bottom: 1px;
+  border-bottom: 2px solid black;
+  transition: 0.1s;
+}
+.navButtons {
+  margin-left: auto;
+}
+.label {
+  margin-top: 25px;
+}
+.aboutMe:hover {
+  border-radius: 5px;
+  /* box-shadow: 1px 1px 5px black; */
+  transition: 0.3s;
+}
+.aboutMe:hover .pictureMe {
+  transition: 0.3s;
+  width: 300px !important;
+  height: 300px !important;
+  box-shadow: 5px 5px 10px black;
+}
+.aboutMeHeader {
+  font-family: "Overpass", sans-serif;
+}
+.aboutMeText {
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+}
+.experienceItems {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 310px;
+  margin: 0 5px;
+  font-weight: bolder;
+  position: relative;
+}
+.experienceItems:hover {
+  cursor: pointer;
+}
+.experienceItems:hover h2 {
+  color: grey;
+  animation-name: technologiesName;
+  animation-duration: 0.5s;
+  border-bottom: 3px solid black;
+  position: relative;
+}
+@keyframes technologiesName {
+  0% {
+    left: 0;
+  }
+  25% {
+    left: 15px;
+  }
+  50% {
+    left: -15px;
+  }
+  75% {
+    left: 15px;
+  }
+  100% {
+    left: 0;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.experienceItems:hover img {
+  animation-name: technologiesPic;
+  animation-duration: 0.9s;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
+@keyframes technologiesPic {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
+  }
+}
+.projectLink {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 3px;
+}
+.projectLink:hover {
+  color: #7d7d7d !important;
+  border-bottom: 1px solid black;
+}
+.projectItem:hover {
+  box-shadow: 1px 1px 5px #7d7d7d;
+}
+.modal-header,
+.modal-footer {
+  border: none !important;
+}
+
+@media only screen and (max-width: 990px) {
+  .navList {
+    flex-direction: column !important;
+  }
+  .navList li {
+    margin-bottom: 5px;
+  }
+  .navButtons {
+    margin: 0 auto;
+    height: 180px;
+  }
+  .label {
+    margin-top: 5px;
+  }
+  .name {
+    font-size: 1.5rem;
   }
 }
