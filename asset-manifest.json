@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/MuratCan-Portfolio-React/static/css/main.5ca46edd.chunk.css",
+    "main.js": "/MuratCan-Portfolio-React/static/js/main.fa0c786a.chunk.js",
+    "main.js.map": "/MuratCan-Portfolio-React/static/js/main.fa0c786a.chunk.js.map",
+    "runtime-main.js": "/MuratCan-Portfolio-React/static/js/runtime-main.f6c9d9e8.js",
+    "runtime-main.js.map": "/MuratCan-Portfolio-React/static/js/runtime-main.f6c9d9e8.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/MuratCan-Portfolio-React/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e14e81bc.chunk.js": "/MuratCan-Portfolio-React/static/js/2.e14e81bc.chunk.js",
+    "static/js/2.e14e81bc.chunk.js.map": "/MuratCan-Portfolio-React/static/js/2.e14e81bc.chunk.js.map",
+    "static/js/3.b52ca943.chunk.js": "/MuratCan-Portfolio-React/static/js/3.b52ca943.chunk.js",
+    "static/js/3.b52ca943.chunk.js.map": "/MuratCan-Portfolio-React/static/js/3.b52ca943.chunk.js.map",
+    "index.html": "/MuratCan-Portfolio-React/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/MuratCan-Portfolio-React/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.5ca46edd.chunk.css.map": "/MuratCan-Portfolio-React/static/css/main.5ca46edd.chunk.css.map",
+    "static/js/2.e14e81bc.chunk.js.LICENSE.txt": "/MuratCan-Portfolio-React/static/js/2.e14e81bc.chunk.js.LICENSE.txt",
+    "static/js/main.fa0c786a.chunk.js.LICENSE.txt": "/MuratCan-Portfolio-React/static/js/main.fa0c786a.chunk.js.LICENSE.txt",
+    "static/media/Css.4e67641b.png": "/MuratCan-Portfolio-React/static/media/Css.4e67641b.png",
+    "static/media/MuratCanPic.f9921708.jpeg": "/MuratCan-Portfolio-React/static/media/MuratCanPic.f9921708.jpeg",
+    "static/media/bannerPic.19fbe984.jpeg": "/MuratCan-Portfolio-React/static/media/bannerPic.19fbe984.jpeg",
+    "static/media/bootstrap.5b6ec4d1.png": "/MuratCan-Portfolio-React/static/media/bootstrap.5b6ec4d1.png",
+    "static/media/contactForm.284037d9.jpeg": "/MuratCan-Portfolio-React/static/media/contactForm.284037d9.jpeg",
+    "static/media/html.33745ead.png": "/MuratCan-Portfolio-React/static/media/html.33745ead.png",
+    "static/media/javaScript.266bd9fb.png": "/MuratCan-Portfolio-React/static/media/javaScript.266bd9fb.png",
+    "static/media/react.73ac128a.png": "/MuratCan-Portfolio-React/static/media/react.73ac128a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6c9d9e8.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.e14e81bc.chunk.js",
+    "static/css/main.5ca46edd.chunk.css",
+    "static/js/main.fa0c786a.chunk.js"
+  ]
+}
