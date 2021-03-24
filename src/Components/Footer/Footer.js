@@ -9,14 +9,15 @@ function Footer(props) {
       <div
         className="d-flex justify-content-center align-items-center mx-auto"
         style={{
-          // border: "1px solid black",
           width: "200px",
           height: "50px",
           fontWeight: "bolder",
-          // color: "grey",
         }}
       >
-        <h5 style={{ cursor: "pointer" }} onClick={props.contactModal}>
+        <h5
+          onClick={props.contactModal}
+          className="contactInfo font-weight-bolder"
+        >
           Contact Information
         </h5>
       </div>

@@ -7,14 +7,20 @@ function ProjectItem(props) {
       <img src={props.img} className="w-100" style={{ height: "60%" }}></img>
       <h1>{props.title}</h1>
       <p className="w-75 mx-auto">{props.explanation}</p>
-      {/* browser deployment link */}
-      <a href="#" className="projectLink">
-        To the project!
-      </a>
-      {/* github repolink */}
-      <a href="#" className="d-block mt-2">
-        Code !
-      </a>
+      <div className="d-flex flex-column ">
+        {/* browser deployment link */}
+        <p className="mb-1">
+          <a href="#" className="projectLink">
+            To the project !
+          </a>
+        </p>
+        <p>
+          {/* github repolink */}
+          <a href="#" className="repoLink mt-2">
+            Code !
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
