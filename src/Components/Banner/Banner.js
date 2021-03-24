@@ -3,12 +3,11 @@ import BannerBackground from "./img/bannerPic.jpeg";
 function Banner() {
   return (
     <div
-      className="w-100"
+      id="banner"
       style={{
         height: "80vh",
         backgroundImage: `url(${BannerBackground})`,
         backgroundRepeat: "no-repeat",
-        backgroundSize: "60% 90%",
         backgroundPosition: "center",
       }}
     ></div>

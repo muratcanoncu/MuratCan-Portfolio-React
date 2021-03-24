@@ -1,17 +1,7 @@
 import emailjs from "emailjs-com";
-import { useState } from "react";
-import ContactModal from "./ContactModal";
+
 import ContactForm from "./Img/contactForm.jpeg";
 function ContactMe() {
-  const [state, setState] = useState({ showModal: false });
-  const showModal = () => {
-    setState({
-      showModal: true,
-    });
-  };
-  const hideModal = () => {
-    setState({ showModal: false });
-  };
   function sendEmail(e) {
     e.preventDefault();
     emailjs
@@ -36,25 +26,11 @@ function ContactMe() {
       id="contactForm"
       style={{
         background: `url(${ContactForm})`,
-        height: "40vh",
         width: "100%",
-        border: "1px solid black",
       }}
-      className="d-flex justify-content-end align-items-center"
     >
-      {state.showModal ? (
-        <ContactModal closeModal={hideModal}></ContactModal>
-      ) : null}
-
-      <form
-        onSubmit={sendEmail}
-        className="d-flex justify-content-between align-items-center w-50"
-        style={{ height: "25vh", marginRight: "120px" }}
-      >
-        <div
-          className="d-flex flex-column justify-content-between h-100 text-white"
-          style={{ width: "48%" }}
-        >
+      <form id="contactFormElement" onSubmit={sendEmail}>
+        <div className=" h-100 text-white">
           <div>
             <label>Name</label>
             <input
@@ -83,10 +59,7 @@ function ContactMe() {
             ></input>
           </div>
         </div>
-        <div
-          className="d-flex justify-content-between flex-column h-100 text-white"
-          style={{ width: "48%" }}
-        >
+        <div className="d-flex justify-content-between flex-column h-100 text-white">
           <div>
             <label>Message</label>
             <textarea
@@ -100,13 +73,11 @@ function ContactMe() {
           <input
             type="submit"
             value="Send Message"
-            className="w-50 mx-auto btn-dark"
+            id="contactButton"
+            className="w-50 mx-auto"
           ></input>
         </div>
       </form>
-      {/* <button onClick={showModal} className="btn-dark px-2">
-        Contact Me!
-      </button> */}
     </div>
   );
 }

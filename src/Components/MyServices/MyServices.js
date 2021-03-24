@@ -8,12 +8,12 @@ import ReactLogo from "./Img/react.png";
 function MyServices() {
   return (
     <>
-      <h1
+      <h2
         className="text-center"
         style={{ fontFamily: "Overpass", fontSize: "3.3rem" }}
       >
         What Can I Do For You?
-      </h1>
+      </h2>
       <div className="d-flex justify-content-center align-items-center flex-wrap mx-auto text-center mt-4">
         <div
           className="experienceItems"
