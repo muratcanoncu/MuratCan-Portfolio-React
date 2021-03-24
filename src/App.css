@@ -200,12 +200,16 @@ label {
   .navList {
     flex-direction: column !important;
   }
+  .navbar-collapse {
+    background: white !important;
+  }
+
   .navList li {
     margin-bottom: 5px;
   }
   .navButtons {
     margin: 0 auto;
-    height: 180px;
+    height: auto;
   }
   .label {
     margin-top: 5px;

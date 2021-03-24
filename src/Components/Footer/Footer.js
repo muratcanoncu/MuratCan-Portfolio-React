@@ -7,7 +7,7 @@ function Footer(props) {
       style={{ height: "auto", padding: "0 10%" }}
     >
       <div
-        className="d-flex justify-content-center align-items-center mx-auto"
+        className="d-flex justify-content-center align-items-center mx-auto px-auto"
         style={{
           width: "200px",
           height: "50px",

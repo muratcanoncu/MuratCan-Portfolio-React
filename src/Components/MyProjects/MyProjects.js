@@ -1,20 +1,24 @@
 import { useState } from "react";
 import ProjectItem from "./ProjectItem";
+//! ScreenShots
+import CalculatorJS from "./Img/calculator.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
       id: 1,
       image: "",
-      title: "Streaming Page,React",
-      explanation: "",
+      title: "Streaming Page",
+      explanation: "React",
       link: "",
+      repoLink: "",
     },
     {
       id: 2,
       image: "",
-      title: "ToDo List,React",
-      explanation: "New tasks can be added,excluded,done or undo",
+      title: "ToDo List",
+      explanation: "New tasks can be added,excluded,done or undo,React",
       link: "",
+      repoLink: "",
     },
     {
       id: 3,
@@ -22,12 +26,25 @@ function MyProjects() {
       title: "Dice Game,JavaScript",
       explanation: "",
       link: "",
+      repoLink: "",
     },
-    { id: 4, image: "", title: "", explanation: "", link: "" },
-    { id: 5, image: "", title: "", explanation: "", link: "" },
-    { id: 6, image: "", title: "", explanation: "", link: "" },
-    { id: 7, image: "", title: "", explanation: "", link: "" },
-    { id: 8, image: "", title: "", explanation: "", link: "" },
+    {
+      id: 4,
+      image: CalculatorJS,
+      title: "Calculator",
+      explanation: "Calculator made with JavaScript",
+      link: "https://muratcanoncu.github.io/Calculator/",
+      repoLink: "https://github.com/muratcanoncu/Calculator",
+    },
+    {
+      id: 5,
+      image: "",
+      title: "Record Shop",
+      explanation: "",
+      link: "",
+      repoLink: "",
+    },
+    { id: 6, image: "", title: "", explanation: "", link: "", repoLink: "" },
   ]);
   return (
     <>
@@ -46,7 +63,8 @@ function MyProjects() {
               img={project.image}
               title={project.title}
               explanation={project.explanation}
-              link={project.link}
+              browserLink={project.link}
+              repoLink={project.repoLink}
             ></ProjectItem>
           );
         })}

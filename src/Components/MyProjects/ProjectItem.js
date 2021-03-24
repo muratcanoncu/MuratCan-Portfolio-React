@@ -10,13 +10,13 @@ function ProjectItem(props) {
       <div className="d-flex flex-column ">
         {/* browser deployment link */}
         <p className="mb-1">
-          <a href="#" className="projectLink">
+          <a href={props.browserLink} target="_blank" className="projectLink">
             To the project !
           </a>
         </p>
         <p>
           {/* github repolink */}
-          <a href="#" className="repoLink mt-2">
+          <a href={props.repoLink} target="_blank" className="repoLink mt-2">
             Code !
           </a>
         </p>
