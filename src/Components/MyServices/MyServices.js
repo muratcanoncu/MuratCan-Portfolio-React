@@ -21,7 +21,7 @@ function MyServices() {
         >
           <img
             src={JavaScript}
-            style={{ width: "180px", marginBottom: "15px" }}
+            style={{ width: "120px", marginBottom: "15px" }}
           ></img>
           <h2>JavaScript</h2>
         </div>
@@ -31,7 +31,7 @@ function MyServices() {
         >
           <img
             src={ReactLogo}
-            style={{ width: "290px", marginBottom: "5px" }}
+            style={{ width: "220px", marginBottom: "5px" }}
           ></img>
           <h2>React JS</h2>
         </div>
@@ -41,7 +41,7 @@ function MyServices() {
         >
           <img
             src={Bootstrap}
-            style={{ width: "320px", marginBottom: "5px" }}
+            style={{ width: "280px", marginBottom: "5px" }}
           ></img>
           <h2>Bootstrap</h2>
         </div>
@@ -49,7 +49,7 @@ function MyServices() {
           className="experienceItems"
           style={{ width: "500px", marginBottom: "30px" }}
         >
-          <img src={Css} style={{ width: "170px", marginBottom: "15px" }}></img>
+          <img src={Css} style={{ width: "120px", marginBottom: "15px" }}></img>
           <h2>CSS</h2>
         </div>
         <div
@@ -58,7 +58,7 @@ function MyServices() {
         >
           <img
             src={Html}
-            style={{ width: "230px", marginBottom: "15px" }}
+            style={{ width: "160px", marginBottom: "15px" }}
           ></img>
           <h2>HTML</h2>
         </div>
