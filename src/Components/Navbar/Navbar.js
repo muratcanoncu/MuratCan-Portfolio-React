@@ -30,10 +30,7 @@ function NavbarComp() {
           </NavDropdown> */}
         {/* </Nav> */}
         <div className="navButtons my-auto px-3" style={{ width: "50%" }}>
-          <ul
-            className="navList d-flex justify-content-between align-items-center mr-5 font-weight-bolder"
-            style={{ listStyleType: "none" }}
-          >
+          <ul className="navList d-flex justify-content-between align-items-center font-weight-bolder">
             <li>
               <a href="#home">Home</a>
             </li>

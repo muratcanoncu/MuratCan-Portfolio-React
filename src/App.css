@@ -51,6 +51,10 @@ label {
 .navButtons {
   margin-left: auto;
 }
+.navButtons ul {
+  list-style-type: none;
+  margin-right: 30px;
+}
 .label {
   margin-top: 25px;
 }
@@ -218,7 +222,7 @@ label {
     font-size: 1.5rem;
   }
   #contactForm {
-    height: 93vh;
+    height: 100vh;
   }
   #contactFormElement {
     width: 100%;
@@ -229,5 +233,8 @@ label {
   }
   #contactFormElement div {
     align-items: center;
+  }
+  .navButtons ul {
+    margin-right: 0;
   }
 }

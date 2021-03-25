@@ -2,6 +2,7 @@ import { useState } from "react";
 import ProjectItem from "./ProjectItem";
 //! ScreenShots
 import CalculatorJS from "./Img/calculator.png";
+import RecordShop from "./Img/RecordShop.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
@@ -14,11 +15,11 @@ function MyProjects() {
     },
     {
       id: 2,
-      image: "",
-      title: "ToDo List",
-      explanation: "New tasks can be added,excluded,done or undo,React",
-      link: "",
-      repoLink: "",
+      image: RecordShop,
+      title: "Record Shop(ReactJS)",
+      explanation: "Online Shop",
+      link: "https://reactproject-fbw41-1.github.io/Record-Shop-project/#/",
+      repoLink: "https://github.com/ReactProject-FbW41-1/Record-Shop-project",
     },
     {
       id: 3,
@@ -31,8 +32,8 @@ function MyProjects() {
     {
       id: 4,
       image: CalculatorJS,
-      title: "Calculator",
-      explanation: "Calculator made with JavaScript",
+      title: "Calculator(JavaScrip)",
+      explanation: "Calculator",
       link: "https://muratcanoncu.github.io/Calculator/",
       repoLink: "https://github.com/muratcanoncu/Calculator",
     },

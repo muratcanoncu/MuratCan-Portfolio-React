@@ -5,7 +5,7 @@ function ProjectItem(props) {
       style={{ height: "500px", width: "350px" }}
     >
       <img src={props.img} className="w-100" style={{ height: "60%" }}></img>
-      <h1>{props.title}</h1>
+      <h2 className="mt-3">{props.title}</h2>
       <p className="w-75 mx-auto">{props.explanation}</p>
       <div className="d-flex flex-column ">
         {/* browser deployment link */}
