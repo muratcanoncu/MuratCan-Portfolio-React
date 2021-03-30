@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 //! ScreenShots
 import CalculatorJS from "./Img/calculator.png";
 import RecordShop from "./Img/RecordShop.png";
+import SocialMedia from "./Img/socialMedia.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
@@ -23,11 +24,11 @@ function MyProjects() {
     },
     {
       id: 3,
-      image: "",
-      title: "Dice Game,JavaScript",
-      explanation: "",
-      link: "",
-      repoLink: "",
+      image: SocialMedia,
+      title: "Social Media(ReactJS)",
+      explanation: "Log In,Sign Up,add Post,Delete Post,Like Post",
+      link: "https://muratcanoncu.github.io/socialMediaApp-React/#/",
+      repoLink: "https://github.com/muratcanoncu/socialMediaApp-React",
     },
     {
       id: 4,
@@ -40,7 +41,7 @@ function MyProjects() {
     {
       id: 5,
       image: "",
-      title: "Record Shop",
+      title: "",
       explanation: "",
       link: "",
       repoLink: "",
