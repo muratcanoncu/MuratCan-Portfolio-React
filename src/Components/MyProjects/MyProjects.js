@@ -4,6 +4,7 @@ import ProjectItem from "./ProjectItem";
 import CalculatorJS from "./Img/calculator.png";
 import RecordShop from "./Img/RecordShop.png";
 import SocialMedia from "./Img/socialMedia.png";
+import CovidGame from "./Img/covidGame.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
@@ -40,13 +41,14 @@ function MyProjects() {
     },
     {
       id: 5,
-      image: "",
-      title: "",
-      explanation: "",
-      link: "",
-      repoLink: "",
+      image: CovidGame,
+      title: "Covid Hit Game",
+      explanation: "Javascript fundamentals,DOM manipulation,Asynchronized JS",
+      link: "https://muratcanoncu.github.io/Covid-hitting-game/",
+      repoLink: "https://github.com/muratcanoncu/Covid-hitting-game",
     },
     { id: 6, image: "", title: "", explanation: "", link: "", repoLink: "" },
+    { id: 7, image: "", title: "", explanation: "", link: "", repoLink: "" },
   ]);
   return (
     <>

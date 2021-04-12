@@ -25,17 +25,20 @@ function AboutMe() {
               popularised in the 1960s with the release
             </p>
             <div className="d-flex justify-content-between w-50 align-items-center mx-auto">
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/murat-can-%C3%B6nc%C3%BC-05081992/"
+                target="_blank"
+              >
                 <i
                   id="linkedinLogo"
                   className="fab fa-linkedin"
                   title="LinkedIn"
                 ></i>
               </a>
-              <a href="#">
+              <a href="#" target="_blank">
                 <i id="xingLogo" className="fab fa-xing" title="Xing"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/muratcanoncu" target="_blank">
                 <i
                   id="gitHubLogo"
                   className="fab fa-github-square"
