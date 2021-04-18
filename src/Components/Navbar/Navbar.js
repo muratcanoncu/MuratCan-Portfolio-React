@@ -3,7 +3,7 @@ import { Navbar } from "react-bootstrap";
 
 function NavbarComp() {
   return (
-    <Navbar id="home" bg="white" expand="lg">
+    <Navbar id="homeNavbar" bg="white" expand="lg">
       <Navbar.Brand href="#home">
         <div className="label px-3">
           <div
@@ -31,9 +31,9 @@ function NavbarComp() {
         {/* </Nav> */}
         <div className="navButtons my-auto px-3" style={{ width: "50%" }}>
           <ul className="navList d-flex justify-content-between align-items-center font-weight-bolder">
-            <li>
+            {/* <li>
               <a href="#home">Home</a>
-            </li>
+            </li> */}
             <li>
               <a href="#aboutme">About Me</a>
             </li>

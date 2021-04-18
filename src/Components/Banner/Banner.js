@@ -2,7 +2,7 @@ import React from "react";
 import BannerBackground from "./img/bannerPic.jpeg";
 function Banner() {
   return (
-    <div
+    <header
       id="banner"
       style={{
         height: "80vh",
@@ -10,7 +10,7 @@ function Banner() {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-    ></div>
+    ></header>
   );
 }
 

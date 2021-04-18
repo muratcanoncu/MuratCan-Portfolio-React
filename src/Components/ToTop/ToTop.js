@@ -3,10 +3,12 @@ import React from "react";
 function ToTop() {
   return (
     <a
-      href="#home"
+      href="#banner"
       className="toTop d-flex justify-content-center align-items-center"
     >
-      To Top
+      <p className="mb-0">
+        back to top <span>&#8594;</span>
+      </p>
     </a>
   );
 }

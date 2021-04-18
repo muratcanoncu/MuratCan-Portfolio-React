@@ -15,7 +15,7 @@ function ContactModal(props) {
         <h5>E-mail: mcanoncuu@gmail.com</h5>
         <h5>Tel: +49-163-199-25-63</h5>
         <h5>Address: Liebenwalder Straße 8, 13347, Berlin</h5>
-        <p className="text-center mt-3">English | German | Turkish</p>
+        <p className="text-center mt-3">Turkish | English | German</p>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="dark" onClick={props.closeModal}>

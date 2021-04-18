@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer(props) {
   return (
-    <div
+    <footer
       className="w-100 d-flex justify-content-between align-items-center flex-wrap my-3"
       style={{ height: "auto", padding: "0 10%" }}
     >
@@ -61,7 +61,7 @@ function Footer(props) {
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

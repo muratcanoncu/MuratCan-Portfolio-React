@@ -25,6 +25,12 @@ i:hover {
   transition: 0.2s;
   cursor: pointer;
 }
+#homeNavbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
 #banner {
   width: 100%;
   background-size: 70% 90%;
@@ -205,13 +211,17 @@ label {
 }
 .toTop {
   border: 1px solid black;
-  width: 120px;
+  width: 130px;
   height: 40px;
   background: black;
   color: white !important;
   position: fixed;
-  bottom: 50px;
-  left: 90%;
+  bottom: 80px;
+  left: 93%;
+  transform: rotate(-90deg);
+}
+.toTop p span {
+  font-weight: bolder;
 }
 
 @media only screen and (max-width: 990px) {
@@ -258,7 +268,7 @@ label {
     margin-right: 0;
   }
   .toTop {
-    width: 70px;
-    left: 80%;
+    width: 120px;
+    left: 78%;
   }
 }
