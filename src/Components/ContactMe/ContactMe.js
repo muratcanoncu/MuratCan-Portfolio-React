@@ -30,7 +30,7 @@ function ContactMe() {
       }}
     >
       <form id="contactFormElement" onSubmit={sendEmail}>
-        <div className=" h-100 text-white">
+        <div className="contactELements h-100 text-white">
           <div>
             <label>Name</label>
             <input
@@ -60,7 +60,7 @@ function ContactMe() {
           </div>
         </div>
         <div className="d-flex justify-content-between flex-column h-100 text-white">
-          <div>
+          <div className="mb-1">
             <label>Message</label>
             <textarea
               placeholder="Your Message.."

@@ -10,6 +10,7 @@ import AboutMe from "./Components/AboutMe/AboutMe";
 import MyServices from "./Components/MyServices/MyServices";
 import MyProjects from "./Components/MyProjects/MyProjects";
 import ContactMe from "./Components/ContactMe/ContactMe";
+import ToTop from "./Components/ToTop/ToTop";
 import Footer from "./Components/Footer/Footer";
 function App() {
   const [state, setState] = useState({ showModal: false, show: true });
@@ -31,9 +32,10 @@ function App() {
       {/* content of about me */}
       <AboutMe></AboutMe>
       <MyServices></MyServices>
-      {/* Add your projcets */}
+      {/* Add your projects */}
       <MyProjects></MyProjects>
       <ContactMe></ContactMe>
+      <ToTop></ToTop>
       <Footer contactModal={showModal}></Footer>
     </div>
   );

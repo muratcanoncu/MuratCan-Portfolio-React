@@ -7,6 +7,7 @@ import ReactLogo from "./Img/react.png";
 
 function MyServices() {
   return (
+    // background color change
     <>
       <h2
         className="text-center"

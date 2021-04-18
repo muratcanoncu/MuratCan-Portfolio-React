@@ -3,7 +3,7 @@ import { Navbar } from "react-bootstrap";
 
 function NavbarComp() {
   return (
-    <Navbar bg="white" expand="lg">
+    <Navbar id="home" bg="white" expand="lg">
       <Navbar.Brand href="#home">
         <div className="label px-3">
           <div

@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 a {
   color: black !important;
   text-decoration: none !important;
@@ -200,6 +203,16 @@ label {
   border-bottom: 1px solid black;
   transition: 0.2s;
 }
+.toTop {
+  border: 1px solid black;
+  width: 120px;
+  height: 40px;
+  background: black;
+  color: white !important;
+  position: fixed;
+  bottom: 50px;
+  left: 90%;
+}
 
 @media only screen and (max-width: 990px) {
   #banner {
@@ -238,7 +251,14 @@ label {
   #contactFormElement div {
     align-items: center;
   }
+  .contactELements div {
+    margin-bottom: 10px;
+  }
   .navButtons ul {
     margin-right: 0;
+  }
+  .toTop {
+    width: 70px;
+    left: 80%;
   }
 }
