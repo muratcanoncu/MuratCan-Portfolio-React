@@ -34,6 +34,49 @@ i:hover {
 #banner {
   width: 100%;
   background-size: 70% 90%;
+  padding-bottom: 50px;
+  margin-top: 80px;
+}
+#banner div {
+  width: 40%;
+  margin-left: 15%;
+}
+#banner #nameTitle h1 {
+  font-size: 3rem !important;
+  text-shadow: 2px 2px black;
+  width: 100%;
+  margin-left: 20px !important;
+}
+#banner #nameTitle h2 {
+  font-size: 3rem !important;
+  text-shadow: 2px 2px black;
+  width: 100%;
+  margin-left: 20px !important;
+}
+#banner div h2 {
+  overflow: hidden;
+  border-right: 4px solid white;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
 }
 #linkedinLogo:hover {
   color: #2867b2;

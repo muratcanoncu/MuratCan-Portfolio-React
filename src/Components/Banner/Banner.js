@@ -4,13 +4,22 @@ function Banner() {
   return (
     <header
       id="banner"
+      className="d-flex justify-content-start align-items-end text-white"
       style={{
         height: "80vh",
         backgroundImage: `url(${BannerBackground})`,
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-    ></header>
+    >
+      <div
+        id="nameTitle"
+        className="d-flex flex-column justify-content-center align-items-start"
+      >
+        <h1>Murat Can Öncü</h1>
+        <h2>Full stack Web Developer </h2>
+      </div>
+    </header>
   );
 }
 
