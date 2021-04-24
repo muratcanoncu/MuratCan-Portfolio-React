@@ -17,7 +17,7 @@ function Banner() {
         className="d-flex flex-column justify-content-center align-items-start"
       >
         <h1>Murat Can Öncü</h1>
-        <h2>Full stack Web Developer </h2>
+        <h2>Software Developer</h2>
       </div>
     </header>
   );

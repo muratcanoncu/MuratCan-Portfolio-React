@@ -271,6 +271,16 @@ label {
   #banner {
     background-size: 100% 90%;
   }
+  #banner #nameTitle {
+    width: 80%;
+    margin-left: 0;
+  }
+  #banner #nameTitle h1 {
+    font-size: 2rem !important;
+  }
+  #banner #nameTitle h2 {
+    font-size: 1.4rem !important;
+  }
   .navList {
     flex-direction: column !important;
   }
