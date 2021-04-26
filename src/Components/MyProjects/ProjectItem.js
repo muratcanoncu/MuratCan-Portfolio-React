@@ -2,7 +2,7 @@ function ProjectItem(props) {
   return (
     <div
       className="projectItem m-5 text-center pb-2"
-      style={{ height: "480px", width: "330px" }}
+      style={{ height: "480px", width: "480px" }}
     >
       <img
         src={props.img}

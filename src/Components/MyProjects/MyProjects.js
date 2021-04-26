@@ -5,15 +5,17 @@ import CalculatorJS from "./Img/calculator.png";
 import RecordShop from "./Img/RecordShop.png";
 import SocialMedia from "./Img/socialMedia.png";
 import CovidGame from "./Img/covidGame.png";
+import CurrencyConverter from "./Img/foreignConvert.png";
+import FetchFlix from "./Img/fetchFlix.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
       id: 1,
-      image: "",
+      image: FetchFlix,
       title: "Streaming Page",
       explanation: "React",
-      link: "",
-      repoLink: "",
+      link: "https://muratcanoncu.github.io/Movie-Browser-React/",
+      repoLink: "https://github.com/muratcanoncu/Movie-Browser-React",
     },
     {
       id: 2,
@@ -47,8 +49,15 @@ function MyProjects() {
       link: "https://muratcanoncu.github.io/Covid-hitting-game/",
       repoLink: "https://github.com/muratcanoncu/Covid-hitting-game",
     },
-    { id: 6, image: "", title: "", explanation: "", link: "", repoLink: "" },
-    { id: 7, image: "", title: "", explanation: "", link: "", repoLink: "" },
+    {
+      id: 6,
+      image: CurrencyConverter,
+      title: "Currency Converter",
+      explanation: "Pure JavaScript,DOM Manipulation",
+      link: "https://muratcanoncu.github.io/foreignCurrencyConverter/",
+      repoLink: "https://github.com/muratcanoncu/foreignCurrencyConverter",
+    },
+    // { id: 7, image: "", title: "", explanation: "", link: "", repoLink: "" },
   ]);
   return (
     <>
