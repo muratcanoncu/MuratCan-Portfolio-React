@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MuratCan-Portfolio-React/static/css/main.a29525f8.chunk.css",
-    "main.js": "/MuratCan-Portfolio-React/static/js/main.acd80bc3.chunk.js",
-    "main.js.map": "/MuratCan-Portfolio-React/static/js/main.acd80bc3.chunk.js.map",
+    "main.css": "/MuratCan-Portfolio-React/static/css/main.66c14432.chunk.css",
+    "main.js": "/MuratCan-Portfolio-React/static/js/main.da4892d7.chunk.js",
+    "main.js.map": "/MuratCan-Portfolio-React/static/js/main.da4892d7.chunk.js.map",
     "runtime-main.js": "/MuratCan-Portfolio-React/static/js/runtime-main.f6c9d9e8.js",
     "runtime-main.js.map": "/MuratCan-Portfolio-React/static/js/runtime-main.f6c9d9e8.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/MuratCan-Portfolio-React/static/css/2.4c97ca4f.chunk.css",
@@ -12,10 +12,11 @@
     "static/js/3.b52ca943.chunk.js.map": "/MuratCan-Portfolio-React/static/js/3.b52ca943.chunk.js.map",
     "index.html": "/MuratCan-Portfolio-React/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/MuratCan-Portfolio-React/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.a29525f8.chunk.css.map": "/MuratCan-Portfolio-React/static/css/main.a29525f8.chunk.css.map",
+    "static/css/main.66c14432.chunk.css.map": "/MuratCan-Portfolio-React/static/css/main.66c14432.chunk.css.map",
     "static/js/2.e14e81bc.chunk.js.LICENSE.txt": "/MuratCan-Portfolio-React/static/js/2.e14e81bc.chunk.js.LICENSE.txt",
-    "static/js/main.acd80bc3.chunk.js.LICENSE.txt": "/MuratCan-Portfolio-React/static/js/main.acd80bc3.chunk.js.LICENSE.txt",
+    "static/js/main.da4892d7.chunk.js.LICENSE.txt": "/MuratCan-Portfolio-React/static/js/main.da4892d7.chunk.js.LICENSE.txt",
     "static/media/Css.4e67641b.png": "/MuratCan-Portfolio-React/static/media/Css.4e67641b.png",
+    "static/media/MuratCan.c1665e15.jpg": "/MuratCan-Portfolio-React/static/media/MuratCan.c1665e15.jpg",
     "static/media/MuratCanPic.f9921708.jpeg": "/MuratCan-Portfolio-React/static/media/MuratCanPic.f9921708.jpeg",
     "static/media/RecordShop.4c6e17f0.png": "/MuratCan-Portfolio-React/static/media/RecordShop.4c6e17f0.png",
     "static/media/bannerPic.19fbe984.jpeg": "/MuratCan-Portfolio-React/static/media/bannerPic.19fbe984.jpeg",
@@ -23,6 +24,7 @@
     "static/media/calculator.7dc4b5de.png": "/MuratCan-Portfolio-React/static/media/calculator.7dc4b5de.png",
     "static/media/contactForm.284037d9.jpeg": "/MuratCan-Portfolio-React/static/media/contactForm.284037d9.jpeg",
     "static/media/covidGame.03e4544a.png": "/MuratCan-Portfolio-React/static/media/covidGame.03e4544a.png",
+    "static/media/fetchFlix.45e1b993.png": "/MuratCan-Portfolio-React/static/media/fetchFlix.45e1b993.png",
     "static/media/html.33745ead.png": "/MuratCan-Portfolio-React/static/media/html.33745ead.png",
     "static/media/javaScript.266bd9fb.png": "/MuratCan-Portfolio-React/static/media/javaScript.266bd9fb.png",
     "static/media/react.73ac128a.png": "/MuratCan-Portfolio-React/static/media/react.73ac128a.png",
@@ -32,7 +34,7 @@
     "static/js/runtime-main.f6c9d9e8.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.e14e81bc.chunk.js",
-    "static/css/main.a29525f8.chunk.css",
-    "static/js/main.acd80bc3.chunk.js"
+    "static/css/main.66c14432.chunk.css",
+    "static/js/main.da4892d7.chunk.js"
   ]
 }
