@@ -7,12 +7,13 @@ import SocialMedia from "./Img/socialMedia.png";
 import CovidGame from "./Img/covidGame.png";
 import CurrencyConverter from "./Img/foreignConvert.png";
 import FetchFlix from "./Img/fetchFlix.png";
+import CurrentWeather from "./Img/CurrentWeather.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
       id: 1,
       image: FetchFlix,
-      title: "Streaming Page",
+      title: "Streaming Page (React)",
       explanation: "React",
       link: "https://muratcanoncu.github.io/Movie-Browser-React/",
       repoLink: "https://github.com/muratcanoncu/Movie-Browser-React",
@@ -20,7 +21,7 @@ function MyProjects() {
     {
       id: 2,
       image: RecordShop,
-      title: "Record Shop(ReactJS)",
+      title: "Record Shop (React)",
       explanation: "Online Shop",
       link: "https://reactproject-fbw41-1.github.io/Record-Shop-project/#/",
       repoLink: "https://github.com/ReactProject-FbW41-1/Record-Shop-project",
@@ -28,7 +29,7 @@ function MyProjects() {
     {
       id: 3,
       image: SocialMedia,
-      title: "Social Media(ReactJS)",
+      title: "Social Media (React)",
       explanation: "Log In,Sign Up,add Post,Delete Post,Like Post",
       link: "https://muratcanoncu.github.io/socialMediaApp-React/#/",
       repoLink: "https://github.com/muratcanoncu/socialMediaApp-React",
@@ -36,7 +37,7 @@ function MyProjects() {
     {
       id: 4,
       image: CalculatorJS,
-      title: "Calculator(JavaScrip)",
+      title: "Calculator (JavaScript)",
       explanation: "Calculator",
       link: "https://muratcanoncu.github.io/Calculator/",
       repoLink: "https://github.com/muratcanoncu/Calculator",
@@ -44,7 +45,7 @@ function MyProjects() {
     {
       id: 5,
       image: CovidGame,
-      title: "Covid Hit Game",
+      title: "Covid Hit Game (JavaScript)",
       explanation: "Javascript fundamentals,DOM manipulation,Asynchronized JS",
       link: "https://muratcanoncu.github.io/Covid-hitting-game/",
       repoLink: "https://github.com/muratcanoncu/Covid-hitting-game",
@@ -52,12 +53,19 @@ function MyProjects() {
     {
       id: 6,
       image: CurrencyConverter,
-      title: "Currency Converter",
+      title: "Currency Converter (JavaScript)",
       explanation: "Pure JavaScript,DOM Manipulation",
       link: "https://muratcanoncu.github.io/foreignCurrencyConverter/",
       repoLink: "https://github.com/muratcanoncu/foreignCurrencyConverter",
     },
-    // { id: 7, image: "", title: "", explanation: "", link: "", repoLink: "" },
+    {
+      id: 7,
+      image: CurrentWeather,
+      title: "Current Weather",
+      explanation: "Browse Weather by City Name",
+      link: "https://muratcanoncu.github.io/CurrentWeather/",
+      repoLink: "https://github.com/muratcanoncu/CurrentWeather",
+    },
   ]);
   return (
     <>
