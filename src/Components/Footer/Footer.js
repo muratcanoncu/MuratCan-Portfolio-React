@@ -21,7 +21,7 @@ function Footer(props) {
           Contact Information
         </h5>
       </div>
-      <div className="pt-3 mx-auto">
+      <div className="pt-3 mx-auto text-center">
         <div
           style={{ borderBottom: "1px solid black", width: "50%" }}
           className="mx-auto mb-1"
