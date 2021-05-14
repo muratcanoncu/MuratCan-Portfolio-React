@@ -1,5 +1,5 @@
 import React from "react";
-import MuratCanPic from "./Img/MuratCanPic.jpeg";
+import ProfilePic from "./Img/ProfilePic.JPG";
 import MuratCan from "./Img/MuratCan.jpg";
 function AboutMe() {
   return (
@@ -8,7 +8,7 @@ function AboutMe() {
         <div className="row">
           <div className="col-sm-12 col-md-5 d-flex justify-content-center align-items-center ">
             <img
-              src={MuratCan}
+              src={ProfilePic}
               style={{ width: "270px", height: "270px", borderRadius: "5px" }}
               className="mb-3 pictureMe"
             ></img>
@@ -16,12 +16,11 @@ function AboutMe() {
           <div className="col-sm-12 col-md-7">
             <h1 className="text-center aboutMeHeader">Murat Can Öncü</h1>
             <p className="w-75 mx-auto text-center aboutMeText mb-5">
-              Performance driven Business graduate Full Stack Developer with 2+
-              years extensive experience in Finance, Auditing and Software
-              Development. Skilled to work as a part of team, detail oriented
-              and well planned with tight deadlines, forecasting future
-              possibilities as figure based. Seeking a position to apply the
-              skills and create user oriented solutions in tech industry.
+              Business graduate, Professional Athlete, Full Stack Web Developer
+              with 2+ years of experience in Finance, Auditing, and Web
+              Development. Seeking a position to apply analytic skills as part
+              of a team for creating user-oriented solutions in the tech
+              industry.
             </p>
             <div className="d-flex justify-content-between w-50 align-items-center mx-auto">
               <a
