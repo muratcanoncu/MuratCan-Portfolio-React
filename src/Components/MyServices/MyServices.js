@@ -4,6 +4,7 @@ import Css from "./Img/Css.png";
 import Bootstrap from "./Img/bootstrap.png";
 import JavaScript from "./Img/javaScript.png";
 import ReactLogo from "./Img/react.png";
+import NodeLogo from "./Img/NodeLogo.svg.png";
 
 function MyServices() {
   return (
@@ -19,7 +20,7 @@ function MyServices() {
         <div className="experienceItems" style={{ marginBottom: "30px" }}>
           <img
             src={JavaScript}
-            style={{ width: "160px", marginBottom: "15px" }}
+            style={{ width: "160px", marginBottom: "15px", marginTop: "25px" }}
           ></img>
           <h2>JavaScript</h2>
         </div>
@@ -29,6 +30,13 @@ function MyServices() {
             style={{ width: "300px", marginBottom: "5px" }}
           ></img>
           <h2>React JS</h2>
+        </div>
+        <div className="experienceItems" style={{ marginBottom: "30px" }}>
+          <img
+            src={NodeLogo}
+            style={{ width: "210px", marginBottom: "2px", marginTop: "45px" }}
+          ></img>
+          <h2>Node.js</h2>
         </div>
         <div className="experienceItems" style={{ marginBottom: "30px" }}>
           <img
