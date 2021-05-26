@@ -9,7 +9,7 @@ function AboutMe() {
           <div className="col-sm-12 col-md-5 d-flex justify-content-center align-items-center ">
             <img
               src={ProfilePic}
-              style={{ width: "270px", height: "270px", borderRadius: "5px" }}
+              style={{ width: "300px", height: "300px", borderRadius: "50%" }}
               className="mb-3 pictureMe"
             ></img>
           </div>
