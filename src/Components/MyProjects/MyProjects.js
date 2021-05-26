@@ -8,6 +8,7 @@ import CovidGame from "./Img/covidGame.png";
 import CurrencyConverter from "./Img/foreignConvert.png";
 import FetchFlix from "./Img/fetchFlix.png";
 import CurrentWeather from "./Img/CurrentWeather.png";
+import GroceryList from "./Img/MERN GroceryList.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
@@ -36,11 +37,11 @@ function MyProjects() {
     },
     {
       id: 4,
-      image: CalculatorJS,
-      title: "Calculator (JavaScript)",
-      explanation: "Calculator",
-      link: "https://muratcanoncu.github.io/Calculator/",
-      repoLink: "https://github.com/muratcanoncu/Calculator",
+      image: GroceryList,
+      title: "Grocery List (MERN)",
+      explanation: "Adding, removing, updating items in the list",
+      link: "https://muratcanoncu.github.io/ActiveITfrontend/#/",
+      repoLink: "https://github.com/muratcanoncu/ActiveITfrontend",
     },
     {
       id: 5,
@@ -61,10 +62,18 @@ function MyProjects() {
     {
       id: 7,
       image: CurrentWeather,
-      title: "Current Weather",
+      title: "Current Weather (JavaScript)",
       explanation: "Browse Weather by City Name",
       link: "https://muratcanoncu.github.io/CurrentWeather/",
       repoLink: "https://github.com/muratcanoncu/CurrentWeather",
+    },
+    {
+      id: 8,
+      image: CalculatorJS,
+      title: "Calculator (JavaScript)",
+      explanation: "Calculator",
+      link: "https://muratcanoncu.github.io/Calculator/",
+      repoLink: "https://github.com/muratcanoncu/Calculator",
     },
   ]);
   return (
