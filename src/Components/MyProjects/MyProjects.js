@@ -9,6 +9,7 @@ import CurrencyConverter from "./Img/foreignConvert.png";
 import FetchFlix from "./Img/fetchFlix.png";
 import CurrentWeather from "./Img/CurrentWeather.png";
 import GroceryList from "./Img/MERN GroceryList.png";
+import ExpenseTracker from "./Img/expenseTracker.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
@@ -74,6 +75,14 @@ function MyProjects() {
       explanation: "Calculator",
       link: "https://muratcanoncu.github.io/Calculator/",
       repoLink: "https://github.com/muratcanoncu/Calculator",
+    },
+    {
+      id: 9,
+      image: ExpenseTracker,
+      title: "Expense Tracker(React)",
+      explanation: "Expense Tracker",
+      link: "https://muratcanoncu.github.io/expenseBook-react/",
+      repoLink: "https://github.com/muratcanoncu/expenseBook-react",
     },
   ]);
   return (
