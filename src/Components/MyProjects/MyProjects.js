@@ -10,6 +10,7 @@ import FetchFlix from "./Img/fetchFlix.png";
 import CurrentWeather from "./Img/CurrentWeather.png";
 import GroceryList from "./Img/MERN GroceryList.png";
 import ExpenseTracker from "./Img/expenseTracker.png";
+import SearchEngine from "./Img/searchEngine.png";
 function MyProjects() {
   const [projectState, setProjectState] = useState([
     {
@@ -83,6 +84,15 @@ function MyProjects() {
       explanation: "Expense Tracker",
       link: "https://muratcanoncu.github.io/expenseBook-react/",
       repoLink: "https://github.com/muratcanoncu/expenseBook-react",
+    },
+    {
+      id: 10,
+      image: SearchEngine,
+      title: "Search Engine (React)",
+      explanation: "Cocktail Search Engine",
+      link: "https://muratcanoncu.github.io/Cocktail-SEngine-react/",
+      repoLink:
+        "https://github.com/muratcanoncu/Cocktail-SEngine-react/tree/master",
     },
   ]);
   return (
